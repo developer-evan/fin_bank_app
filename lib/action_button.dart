@@ -45,7 +45,7 @@ class ActionButton extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        IconButton(
+        IconButton.outlined(
             onPressed: (){},
             icon: Icon(
                 icon,
