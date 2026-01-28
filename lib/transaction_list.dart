@@ -38,6 +38,7 @@ class TransactionList extends StatelessWidget {
                 // style: TextStyle(color: Colors.red),
               ),
             ),
+            Divider(color: Colors.grey[200]),
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Color.fromARGB(255, 239, 243, 245),
@@ -52,6 +53,7 @@ class TransactionList extends StatelessWidget {
                 style: TextStyle(color: Colors.teal),),
 
             ),
+            Divider(color: Colors.grey[200]),
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Color.fromARGB(255, 239, 243, 245),
