@@ -1,4 +1,5 @@
 import 'package:fin_bank_app/action_button.dart';
+import 'package:fin_bank_app/transaction_list.dart';
 import 'package:flutter/material.dart';
 
 import 'credit_card.dart';
@@ -78,8 +79,10 @@ class Home extends StatelessWidget {
                       children: [
                         SizedBox(height: 110),
                         // Action Buttons
-                        ActionButtons()
+                        ActionButtons(),
+                        SizedBox(height: 30.0),
                         // Transaction List
+                        TransactionList()
                       ],
                     ),
                   ),
