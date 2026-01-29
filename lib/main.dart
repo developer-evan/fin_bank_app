@@ -7,22 +7,23 @@ import 'home.dart';
 
 void main() {
   // Entry point of the application
- runApp(const MyApp());
+  runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(
-      title:'Fin Bank App',
+      title: 'Fin Bank App',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 16, 80, 98)),
-    useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 16, 80, 98),
+        ),
+        useMaterial3: true,
       ),
-    home: const Home(),
+      home: const Home(),
     );
   }
 }
-
