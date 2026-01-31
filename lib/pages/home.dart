@@ -25,13 +25,12 @@ class Home extends StatelessWidget {
                       Text(
                         "Welcome Back!.",
                         style: TextStyle(
-                          color: Colors.white, // fontSize: 28,
-                          // fontWeight: FontWeight.bold,
+                          color: Colors.white,
                         ),
                       ),
 
                       Text(
-                        "Tania Moraa!.",
+                        "Tania Peekaboo!.",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
