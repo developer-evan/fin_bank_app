@@ -56,10 +56,10 @@ class Home extends StatelessWidget {
                     child: Column(
                       children: [
                         SizedBox(height: 110),
-                        // Action Buttons
+
                         ActionButtons(),
                         SizedBox(height: 30.0),
-                        // Transaction List
+
                         TransactionList(),
                       ],
                     ),
