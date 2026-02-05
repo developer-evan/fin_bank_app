@@ -45,9 +45,7 @@ class _MainPageState extends State<MainPage> {
     const ScanPage(),
     const ActivityPage(),
     const ProfilePage(),
-    // const Placeholder(),
-    // const Placeholder(),
-    // const Placeholder(),
+
   ];
 
   @override
