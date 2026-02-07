@@ -7,7 +7,7 @@ class ActivityPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("My Activity Pages"),
+        child: Text("My Activity Page"),
       ),
     );
   }

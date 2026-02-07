@@ -42,7 +42,7 @@ class Home extends StatelessWidget {
                   const Spacer(),
                   IconButton.outlined(
                     onPressed: () {},
-                    icon: const Icon(Icons.notifications, color: Colors.white),
+                    icon: const Icon(Icons.person, color: Colors.white),
                   ),
                 ],
               ),
