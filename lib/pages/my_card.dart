@@ -53,10 +53,34 @@ class BackCard extends StatelessWidget {
           right: 0,
           bottom: 0,
           child: Image.asset(
-            "assets/images/chip.png",
-            fiT
+            "assets/images/card-design.png",
+            fit: BoxFit.cover,
+            width: 100,
           ),
 
+        ),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                CircleAvatar(
+                  radius: 15,
+                  backgroundColor: Colors.white.withOpacity(0.8),
+                ),
+                Transform.translate(
+                  offset: const Offset(-10,0),
+                  child: CircleAvatar(
+                    radius: 15,
+                    backgroundColor: Colors.yellow.withOpacity(0.8),
+                  ),
+                ),
+              ],
+            )
+
+          ],
         )
       ]),
     );
