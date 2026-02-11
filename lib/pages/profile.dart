@@ -20,7 +20,7 @@ class Profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("My Profile"),
+      child: Text("My Profile Screen"),
     );
   }
 }
